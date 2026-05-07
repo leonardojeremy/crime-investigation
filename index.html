@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Investigasi AML - Aliran Dana Mencurigakan</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#beranda" aria-label="Kembali ke beranda">
+        <span class="brand-mark">AML</span>
+        <span>Crime Investigation Brief</span>
+      </a>
+      <nav class="nav" aria-label="Navigasi utama">
+        <a href="#indikasi">Indikasi</a>
+        <a href="#tahapan">Tahapan</a>
+        <a href="#risiko">Risiko</a>
+        <a href="#aksi">Aksi Bank</a>
+        <a href="#peran">Risk Awareness</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="beranda" class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/investigation-board.svg" alt="" />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Case Study 24</p>
+          <h1>Aliran Dana Mencurigakan di Rekening Nasabah</h1>
+          <p class="lead">
+            Analisis tindak pencucian uang pada rekening wirausaha kecil yang berubah menjadi rekening
+            penampungan, menerima dana miliaran rupiah, lalu memindahkannya cepat ke banyak rekening,
+            termasuk tujuan luar negeri.
+          </p>
+          <div class="case-stats" aria-label="Ringkasan fakta kasus">
+            <div>
+              <strong>Rp50-100 juta</strong>
+              <span>Profil transaksi normal per bulan</span>
+            </div>
+            <div>
+              <strong>Miliaran rupiah</strong>
+              <span>Dana masuk dalam 3 bulan terakhir</span>
+            </div>
+            <div>
+              <strong>Mule account</strong>
+              <span>Rekening dipinjamkan sebagai penampungan</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-band">
+        <div class="section-heading">
+          <p class="eyebrow">Briefing</p>
+          <h2>Inti Kasus</h2>
+        </div>
+        <div class="brief-grid">
+          <article>
+            <h3>Profil Nasabah</h3>
+            <p>
+              Nasabah terdaftar sebagai wirausaha kecil dengan pola transaksi wajar sekitar
+              Rp50-100 juta per bulan.
+            </p>
+          </article>
+          <article>
+            <h3>Anomali Transaksi</h3>
+            <p>
+              Dalam 3 bulan terakhir muncul dana masuk hingga miliaran rupiah dari banyak rekening,
+              dengan nominal yang dipecah-pecah dan berulang.
+            </p>
+          </article>
+          <article>
+            <h3>Temuan AML</h3>
+            <p>
+              Rekening hanya dipinjamkan kepada pihak lain, diduga menerima dana hasil penipuan online
+              dan aktivitas ilegal.
+            </p>
+          </article>
+          <article>
+            <h3>Perkembangan</h3>
+            <p>
+              Rekening teridentifikasi sebagai rekening penampungan, dilaporkan ke PPATK, lalu
+              diteruskan ke aparat penegak hukum.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="indikasi" class="section evidence-section">
+        <div class="section-heading">
+          <p class="eyebrow">Question 1</p>
+          <h2>Indikasi Pencucian Uang</h2>
+        </div>
+        <div class="evidence-list">
+          <button class="evidence active" type="button" data-target="e1">
+            <span>01</span>
+            Lonjakan dana tidak sesuai profil
+          </button>
+          <button class="evidence" type="button" data-target="e2">
+            <span>02</span>
+            Banyak sumber dana masuk
+          </button>
+          <button class="evidence" type="button" data-target="e3">
+            <span>03</span>
+            Nominal dipecah-pecah
+          </button>
+          <button class="evidence" type="button" data-target="e4">
+            <span>04</span>
+            Dana keluar dalam waktu singkat
+          </button>
+          <button class="evidence" type="button" data-target="e5">
+            <span>05</span>
+            Rekening dipinjamkan
+          </button>
+        </div>
+        <div class="evidence-panel" aria-live="polite">
+          <article id="e1" class="evidence-detail active">
+            <h3>Lonjakan Transaksi yang Tidak Wajar</h3>
+            <p>
+              Profil normal nasabah hanya Rp50-100 juta per bulan, tetapi tiba-tiba menerima dana
+              miliaran rupiah. Perubahan ekstrem ini menunjukkan transaksi tidak sesuai profil ekonomi
+              dan usaha nasabah.
+            </p>
+          </article>
+          <article id="e2" class="evidence-detail">
+            <h3>Dana Masuk dari Banyak Rekening</h3>
+            <p>
+              Dana berasal dari berbagai rekening berbeda secara berulang. Pola ini dapat digunakan
+              untuk menyamarkan asal-usul uang dan mempersulit pelacakan sumber dana asli.
+            </p>
+          </article>
+          <article id="e3" class="evidence-detail">
+            <h3>Pemecahan Nominal</h3>
+            <p>
+              Nominal transaksi dipecah-pecah agar terlihat seperti transaksi kecil biasa. Dalam AML,
+              pola ini sering dikaitkan dengan upaya menghindari deteksi sistem monitoring.
+            </p>
+          </article>
+          <article id="e4" class="evidence-detail">
+            <h3>Rapid Movement</h3>
+            <p>
+              Dana segera dipindahkan ke beberapa rekening lain setelah masuk. Perputaran cepat
+              mengindikasikan rekening tidak digunakan untuk aktivitas usaha normal, melainkan sebagai
+              jalur sementara.
+            </p>
+          </article>
+          <article id="e5" class="evidence-detail">
+            <h3>Mule Account</h3>
+            <p>
+              Pengakuan bahwa nasabah hanya meminjamkan rekening memperkuat dugaan rekening penampungan.
+              Ini berisiko menjadi sarana pencucian uang, penipuan online, dan pemindahan dana ilegal.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tahapan" class="section timeline-section">
+        <div class="section-heading">
+          <p class="eyebrow">Question 2</p>
+          <h2>Tahapan Money Laundering</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span class="stage-number">1</span>
+            <h3>Placement</h3>
+            <p>
+              Dana diduga hasil penipuan online atau aktivitas ilegal mulai dimasukkan ke sistem
+              perbankan melalui rekening nasabah. Rekening wirausaha kecil menjadi pintu masuk dana.
+            </p>
+          </article>
+          <article>
+            <span class="stage-number">2</span>
+            <h3>Layering</h3>
+            <p>
+              Dana dipecah, diterima dari banyak rekening, lalu dipindahkan cepat ke berbagai rekening
+              lain. Tujuannya menyamarkan jejak, sumber, dan hubungan antar pihak.
+            </p>
+          </article>
+          <article>
+            <span class="stage-number">3</span>
+            <h3>Integration</h3>
+            <p>
+              Potensi integration muncul ketika dana yang sudah berlapis masuk ke rekening lain,
+              termasuk luar negeri, lalu dapat digunakan seolah-olah berasal dari sumber yang sah.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="risiko" class="section risk-section">
+        <div class="section-heading">
+          <p class="eyebrow">Question 3</p>
+          <h2>Risiko Bagi Bank</h2>
+        </div>
+        <div class="risk-matrix">
+          <article>
+            <span class="risk-tag high">Tinggi</span>
+            <h3>Risiko Hukum dan Regulasi</h3>
+            <p>
+              Bank dapat dinilai gagal menerapkan prinsip Know Your Customer, Customer Due Diligence,
+              Enhanced Due Diligence, dan pelaporan transaksi mencurigakan.
+            </p>
+          </article>
+          <article>
+            <span class="risk-tag high">Tinggi</span>
+            <h3>Risiko Reputasi</h3>
+            <p>
+              Kepercayaan publik dan regulator dapat turun jika bank dianggap menjadi saluran dana
+              penipuan atau aktivitas ilegal.
+            </p>
+          </article>
+          <article>
+            <span class="risk-tag medium">Sedang</span>
+            <h3>Risiko Operasional</h3>
+            <p>
+              Investigasi, pembekuan rekening, permintaan data, dan koordinasi dengan aparat membuat
+              biaya operasional meningkat.
+            </p>
+          </article>
+          <article>
+            <span class="risk-tag medium">Sedang</span>
+            <h3>Risiko Finansial</h3>
+            <p>
+              Bank dapat menghadapi sanksi, denda, klaim korban, serta biaya pemulihan akibat lemahnya
+              kontrol transaksi.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="aksi" class="section action-section">
+        <div class="section-heading">
+          <p class="eyebrow">Question 4</p>
+          <h2>Apa yang Seharusnya Dilakukan Bank?</h2>
+        </div>
+        <ol class="action-list">
+          <li>
+            <strong>Melakukan analisis transaksi.</strong>
+            Cocokkan aktivitas terbaru dengan profil nasabah, sumber dana, tujuan transfer, frekuensi,
+            dan pola nominal.
+          </li>
+          <li>
+            <strong>Melakukan Enhanced Due Diligence.</strong>
+            Minta klarifikasi nasabah, dokumen pendukung usaha, kontrak bisnis, invoice, dan bukti
+            sumber dana yang masuk.
+          </li>
+          <li>
+            <strong>Membatasi atau membekukan sementara rekening sesuai ketentuan.</strong>
+            Langkah ini mencegah dana terus berpindah sambil investigasi berlangsung.
+          </li>
+          <li>
+            <strong>Membuat laporan transaksi keuangan mencurigakan.</strong>
+            Laporkan ke PPATK dengan kronologi, pola transaksi, pihak terkait, dan data pendukung.
+          </li>
+          <li>
+            <strong>Berkoordinasi dengan aparat penegak hukum.</strong>
+            Bank menyediakan data sesuai prosedur hukum dan menjaga chain of custody informasi.
+          </li>
+          <li>
+            <strong>Memperkuat monitoring dan edukasi.</strong>
+            Perbarui rule AML, pantau rekening berisiko mule account, dan edukasi nasabah agar tidak
+            meminjamkan rekening.
+          </li>
+        </ol>
+      </section>
+
+      <section id="peran" class="section awareness-section">
+        <div class="section-heading">
+          <p class="eyebrow">Question 5</p>
+          <h2>Peran Risk Awareness Pegawai</h2>
+        </div>
+        <div class="awareness-layout">
+          <div class="scanner">
+            <span class="scan-line"></span>
+            <p>Risk signal detected</p>
+          </div>
+          <div class="awareness-copy">
+            <p>
+              Risk awareness pegawai adalah garis pertahanan awal. Pegawai cabang, relationship
+              manager, analis transaksi, dan tim operasional perlu peka terhadap perubahan perilaku
+              nasabah, bukan hanya melihat transaksi sebagai angka.
+            </p>
+            <ul>
+              <li>Mengenali transaksi yang tidak sesuai profil usaha nasabah.</li>
+              <li>Berani melakukan eskalasi saat pola transaksi terlihat tidak wajar.</li>
+              <li>Tidak mengabaikan alasan nasabah yang lemah atau tidak didukung dokumen.</li>
+              <li>Menjaga kerahasiaan investigasi agar pihak terkait tidak memindahkan dana lebih jauh.</li>
+              <li>Menerapkan budaya kepatuhan: kenali nasabah, pahami transaksi, dan laporkan red flag.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section conclusion-section">
+        <div class="conclusion">
+          <p class="eyebrow">Conclusion</p>
+          <h2>Kesimpulan Investigasi</h2>
+          <p>
+            Kasus ini menunjukkan pola pencucian uang yang kuat: rekening nasabah digunakan sebagai
+            mule account, dana ilegal masuk ke sistem bank, dipecah melalui layering, lalu dialirkan
+            cepat ke rekening lain. Bank wajib bertindak melalui investigasi AML, pelaporan ke PPATK,
+            penguatan monitoring, dan peningkatan risk awareness pegawai.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <button class="to-top" type="button" aria-label="Kembali ke atas">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
