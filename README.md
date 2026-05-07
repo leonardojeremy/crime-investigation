@@ -4,7 +4,7 @@ This repository is configured to deploy to **GitHub Pages** using a GitHub Actio
 
 ## Deployment
 
-- Workflow file: `/home/runner/work/crime-investigation/crime-investigation/.github/workflows/deploy-pages.yml`
+- Workflow file: `.github/workflows/deploy-pages.yml`
 - Trigger: push to `main` (or manual `workflow_dispatch`)
 - Published content: repository root (includes `index.html`)
 
